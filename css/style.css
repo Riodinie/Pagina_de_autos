@@ -1,12 +1,12 @@
 
 @font-face {
   font-family: 'Eurostile-Oblique';
-  src: url('/fonts/Eurostile-Oblique.woff') format('woff');
+  src: url('../fonts/Eurostile-Oblique.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Eurostile-Bold';
-  src: url('/fonts/EurostileNextW1G-BoldItalic.otf') format('woff');
+  src: url('../fonts/EurostileNextW1G-BoldItalic.otf') format('woff');
 }
 
 .section-padding_1 img{
@@ -56,7 +56,7 @@
 
 
 .hero-section{
-  background-image: url('https://i.ibb.co/MNJjy78/Banner.jpg'); 
+  background-image: url('../img/Banner.jpg'); 
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;

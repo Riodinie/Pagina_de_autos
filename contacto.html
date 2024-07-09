@@ -1,17 +1,20 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MundoMotor</title>
     <link href="css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" type="image/png" href="img/icons8-car-fire-32.png" />
 </head>
 
-<body class="vh-100 overflow-hidden">
-    <nav class="navbar navbar-expand-lg fixed-top">
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top fixed-top">
         <div class="container">
+            <img class="icon" src="img/icons8-car-fire-100.png">
             <a class="navbar-brand me-auto" href="#">MundoMotor</a>
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
@@ -22,13 +25,13 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link  mx-lg-2" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mx-lg-2" href="autos.html">Autos</a>
+                            <a class="nav-link" href="autos.html">Autos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active mx-lg-2" href="contacto.html">Contacto</a>
+                            <a class="nav-link active" href="contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -42,45 +45,48 @@
         </div>
     </nav>
     <main>
-        <section class="hero-section section-padding_2">
-            <div class="section-part">
-                <div class="container_ container">
-                    <div class="row row_">
-                        <div class="col-md-7_ col-md-7">
-                          <h4>Ponerse en contacto</h4>
-                            <div class="mb-3">
-                                <label for="formGroupExampleInput" class="form-label">Nombre</label>
-                                <input type="text" class="form-control_ form-control" id="formGroupExampleInput" >
-                              </div>
-                              <div class="mb-3">
-                                <label for="formGroupExampleInput2" class="form-label">Correo</label>
-                                <input type="text" class="form-control form-control_" id="formGroupExampleInput2" >
-                              </div>
-                              <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                                <textarea class="form-control form-control_" id="exampleFormControlTextarea1" rows="3"></textarea>
-                              </div>
-                              <button class="btn btn_">Enviar</button>
+        <section class="w-100 vh-100 d-flex flex-column justify-content-center align-items-center text-white fs-1">
+            <div class="contact-body container">
+                <div class="row contact-co">
+                    <div class="contact-col col-md-7">
+                        <h4>Ponerse en contacto</h4>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput" class="form-label">Nombre</label>
+                            <input type="text" class="contact-form form-control" id="formGroupExampleInput">
                         </div>
-                        <div class="col-md-5 col-md-5_">
-                          <h4>Información</h4><hr>
-                          <div class="mt-4">
-                              <div class="d-flex d-flex_">
-                                <i class="bi bi_ bi-telephone-fill"></i>
+                        <div class="mb-3">
+                            <label for="formGroupExampleInput2" class="form-label">Correo</label>
+                            <input type="text" class="form-control contact-form" id="formGroupExampleInput2">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <textarea class="form-control contact-form" id="exampleFormControlTextarea1"
+                                rows="3"></textarea>
+                        </div>
+                        <button class="btn contact-btn">Enviar</button>
+                    </div>
+                    <div class="col-md-5 contact-col-2">
+                        <h4>Información</h4>
+                        <hr>
+                        <div class="mt-4">
+                            <div class="d-flex contact-item">
+                                <i class="bi contact-bi bi-telephone-fill"></i>
                                 <p class="p_font">Telefono: 8888888888</p>
-                              </div><hr>
-                              <div class="d-flex d-flex_">
-                                <i class="bi bi_ bi-envelope-fill"></i>
+                            </div>
+                            <hr>
+                            <div class="d-flex contact-item">
+                                <i class="bi contact-bi bi-envelope-fill"></i>
                                 <p>Correo: mundomotor@gmail.com</p>
-                              </div><hr>
-                              <div class="d-flex d-flex_">
-                                <i class="bi bi_ bi-browser-chrome"></i>
+                            </div>
+                            <hr>
+                            <div class="d-flex contact-item">
+                                <i class="bi contact-bi bi-browser-chrome"></i>
                                 <p>Pagina web: www.mundomotor.com</p>
-                              </div><hr>
-                          </div>
+                            </div>
+                            <hr>
                         </div>
                     </div>
-                </div> 
+                </div>
             </div>
         </section>
     </main>

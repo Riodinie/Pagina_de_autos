@@ -6,3 +6,4 @@ if(e.target.classList.contains("gallery-item")){
     myModal.show();
 }
 })
+
